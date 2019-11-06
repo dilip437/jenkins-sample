@@ -1,0 +1,9 @@
+version: '2'
+    
+services:
+  spring-jenkins-sample-service:
+    image: spring-jenkins-sample-service:1.0
+    build: ./
+    ports:
+      - 8080:8080
+
